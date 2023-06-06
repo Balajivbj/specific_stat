@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c2.css' %}">
+</head>
+<body>
+    <center>
+        <table border="2px"
+            <thead>
+                <tr>
+                    <td>s.no</td>
+                    <td>player name</td>
+                    <td>age</td>
+                    <td>matches played</td>
+                    <td>photo</td>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>kl rahul</td>
+                        <td>32</td>
+                        <td>356</td>
+                        <td><img src="{% static 'images/kl rahul.jpg' %}" width="1000px" heigth="300px"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>rohith</td>
+                        <td>38</td>
+                        <td>450</td>
+                        <td><img src="{% static 'images/rohith.avif' %}" width="1000px" heigth="300px"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>kohli</td>
+                        <td>35</td>
+                        <td>756</td>
+                        <td><img src="{% static 'images/kohli.jpg' %}" width="1000px" heigth="300px"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>hardhik pandya</td>
+                        <td>31</td>
+                        <td>556</td>
+                        <td><img src="{% static 'images/hardhik1.jpg' %}" width="1000px" heigth="300px"></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>dhoni</td>
+                        <td>40</td>
+                        <td>856</td>
+                        <td><img src="{% static 'images/dhoni.avif' %}" width="1000px" heigth="300px"></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>bhumra</td>
+                        <td>32</td>
+                        <td>356</td>
+                        <td><img src="{% static 'images/bumra.jpg' %}" width="1000px" heigth="300px"></td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    </center>
+</body>
+</html>

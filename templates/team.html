@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new tab</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+</head>
+<body>
+    <header>
+        <span>
+            <tr>
+                <td>
+                    <h4>
+                        <a href="">home</a>
+                        <a href="{% url 'players' %}">players</a>
+                        <a href="">about</a>
+                        <a href="{% url 'points_table' %}">points table</a>
+                    </h4>
+                </td>
+            </tr>
+        </span>
+    </header>
+    <h1><center>indan cricket team</center></h1>
+    <center><img src="{% static 'images/india.jpg'%}" width="1000px" height="500px"</center>
+    <h3>cricket team members :</h3>
+    <h5>kl rahul(wk)</h5>
+    <h5>rohit(vc)</h5>
+    <h5>kohli</h5>
+    <h5>surya kumar yadhav</h5>
+    <h5>hardhik pandya(c)</h5>
+    <h5>jedeja</h5>
+    <h5>rishab panth</h5>
+    <h5>bumra</h5>
+    <h5>shami</h5>
+    <h5>siraj</h5>
+    <h5>rahul chahar</h5>
+
+</body>
+    
+</body>
+</html>
